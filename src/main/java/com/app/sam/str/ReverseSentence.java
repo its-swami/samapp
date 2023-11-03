@@ -6,8 +6,6 @@ import java.util.List;
 public class ReverseSentence {
 
     public static List<String> reverseSentence(String sentence) {
-
-
         int lastIndex = 0;
         List<String> result = new ArrayList<>();
         StringBuilder str = new StringBuilder();
